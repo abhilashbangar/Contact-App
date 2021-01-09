@@ -29,8 +29,7 @@ Builds the app for production to the `build` folder.
 --------------------------------------------------------------------------------
   
 #lbraries used
-  - React
-  - Redux
+  - Redux, React-Redux
   - React Router DOM
   - Bootstrap4
   - React Avatar
