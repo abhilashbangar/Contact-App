@@ -1,0 +1,70 @@
+.status_indicator {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.active .status_indicator {
+  background-color: #28a745;
+}
+
+.inactive .status_indicator {
+  background-color: #dee2e6;
+}
+
+.icon_style:hover {
+  text-decoration: none;
+}
+.icon_style {
+  opacity: 0.1;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon_style.light {
+  background: #e8e6e6;
+}
+
+.icon_style.red {
+  background: #fbe7e9;
+}
+
+tr:hover .icon_style {
+  opacity: 1;
+}
+
+.contactTable.table-hover tbody tr:hover {
+  color: #212529;
+  background: #fbfbfb;
+}
+
+.navbar-dark .navbar-brand.logo_text {
+  color: #3dbedc;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 1024px) {
+  .icon_style {
+    opacity: 1;
+  }
+  tr.contactRow td {
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contactTable {
+    font-size: 13px;
+  }
+  .status_indicator {
+    width: 10px;
+    height: 10px;
+  }
+}
