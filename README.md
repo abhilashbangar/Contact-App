@@ -21,10 +21,10 @@ Builds the app for production to the `build` folder.
 #Folder Strucure 
 -public: Holds all the static assets
 -src : Holds all entry point files and componenets
-  -Actions : holds the action types and action definations
-  -Reducers : holds one or more reducers and an index file which commbines all the reducers
-  -store.js : creates and exports the store for app
-  - components : holds all the components of the app
+-Actions : holds the action types and action definations
+-Reducers : holds one or more reducers and an index file which commbines all the reducers
+-store.js : creates and exports the store for app
+- components : holds all the components of the app
   
   #lbraries used
   - React
