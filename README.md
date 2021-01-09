@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Starting the project 
 
-### `npm install` : install required package
+### `npm install` : install's required packages
 
-### `npm start` : start development sever
+### `npm start` : start's development sever
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
